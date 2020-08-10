@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>product App</title>
+    <link href="public/assets/css/bootstrap.css" rel="stylesheet">
+    <link type="text/css" href="style.css" rel="stylesheet">
+
+    <script src="public/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="public/assets/js/bootstrap.js"></script>
+
+</head>
+<body style="margin: 0">
+
+<div class="container-fluid p-0 mb-3">
+    <div class="nav-bar"></div>
+</div>
+
+<div class="container-fluid">
+    <div class="container">
+        <div id="app">
+            <product></product>
+
+
+<!--            <div class="product">-->
+<!--                <div class="product-image text-center">-->
+<!--                    <img id="socks" v-bind:src="image">-->
+<!--                </div>-->
+
+<!--                <div class="product-info text-right">v-->
+<!--                    <h1 :class="{deactive : !onSail}">{{title}}</h1>-->
+<!--                    <p class="my-1 w-25 text-center"-->
+<!--                       :class="{active : inStock, deactive : !inStock}"-->
+<!--                    >In Stock</p>-->
+<!--                    <p class="my-1 w-25 text-center"-->
+<!--                       :class="{active : !inStock, deactive : inStock}"-->
+<!--                    >Out Of Stock</p>-->
+<!--                    <span :class="{deactive : !onSail}">On Sale!</span>-->
+<!--                    <ul>-->
+<!--                        <li v-for="detail in details" v-text="detail"></li>-->
+<!--                    </ul>-->
+
+<!--                    &lt;!&ndash;                    part5&6&ndash;&gt;-->
+
+<!--                    <div v-for="(variant , index) in variants"-->
+<!--                         :key="variant.variantId"-->
+<!--                         class="color-box"-->
+<!--                         :style="{backgroundColor:variant.variantColor}"-->
+<!--                         @mouseover="updateProduct(index)"-->
+<!--                    >-->
+<!--                    </div>-->
+
+<!--                    <button class="btn btn-info"-->
+<!--                            v-on:click="addToCart"-->
+<!--                            :disabled="!inStock"-->
+<!--                            :class="{ disabledButton : !inStock }"-->
+<!--                    >Add to Cart-->
+<!--                    </button>-->
+<!--                    \n' +-->
+
+<!--                    <button class="btn btn-danger"-->
+<!--                            v-on:click="removeCart">-->
+<!--                        Remove from Cart-->
+<!--                    </button>-->
+
+<!--                    <div class="cart d-inline-block mr-2 border px-3">\n' +-->
+<!--                        <p>cart({{cart}})</p>\n' +-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+
+<script src="main.js" type="text/javascript"></script>
+
+</body>
+</html>
+
+<!--part1->6-7-8->
+
+
+
+
+
